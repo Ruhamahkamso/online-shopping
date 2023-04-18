@@ -22,104 +22,119 @@
         <li><a href="./shop.html">Shop</a></li>
         <li><a href="./blog.html">Blog</a></li>
         <li><a href="./about.html">About</a></li>
-        <li><a class="active" href=".contact.html">Contact</a></li>
-        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li id="lg-bag"><a class="active" href="cart"><i class="far fa-shopping-bag"></i></a></li>
         <a href="" id="close"><i class="far fa-times"></i></a>
       </ul>
     </div>
 
     <div id="mobile">
       <i id="bar" class="fas fa-outdent"></i>
-      <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+      <a href="cart"><i class="far fa-shopping-bag"></i></a>
 
     </div>
   </section>
-  <section id="header-page" class="contact-header">
-    <h2>#Let's_talk</h2>
-    <p>LEAVE A MESSAGE .We love to hear from you!</p>
+  <section id="header-page" class="cart-header">
+    <h2>#Cart</h2>
+    <p>Add your coupon code and SAVE upto 70%!</p>
   </section>
-  <section id="contact-details" class="section-p1">
-    <div class="details">
-      <span>GET IN TOUCH</span>
-      <h2>Visit one of our agency location or contact us today</h2>
-      <h3>Head office</h3>
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"></a><i class="far fa-times-circle"></i> </td>
+          <td><img src="../images/top5.jpeg" alt=""></td>
+          <td>Long Sleeve Skirt Top</td>
+          <td>$18.6</td>
+          <td><input type="number" value="1"></td>
+          <td>$20.12</td>
+
+        </tr>
+        <tr>
+          <td><a href="#"></a><i class="far fa-times-circle"></i> </td>
+          <td><img src="../images/dress5.jpeg" alt=""></td>
+          <td> Summer Sleevless Gown</td>
+          <td>$15</td>
+          <td><input type="number" value="1"></td>
+          <td>$19.0</td>
+
+        </tr>
+        <tr>
+          <td><a href="#"></a><i class="far fa-times-circle"></i> </td>
+          <td><img src="../images/hat4.jpeg" alt=""></td>
+          <td>Windy Summer Hat</td>
+          <td>$18.6</td>
+          <td><input type="number" value="1"></td>
+          <td>$13.17</td>
+
+        </tr>
+
+        <tr>
+          <td><a href="#"></a><i class="far fa-times-circle"></i> </td>
+          <td><img src="../images/heel8.jpeg" alt=""></td>
+          <td>Italian Fashion Heel</td>
+          <td>$9</td>
+          <td><input type="number" value="1"></td>
+          <td>$9.2</td>
+
+        </tr>
+        <tr>
+          <td><a href="#"></a><i class="far fa-times-circle"></i> </td>
+          <td><img src="../images/top7.jpeg" alt=""></td>
+          <td> Sleeve Skirt Top</td>
+          <td>$18.6</td>
+          <td><input type="number" value="1"></td>
+          <td>$11.2</td>
+
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
       <div>
-        <ol>
-          <i class="fal fa-map"></i>
-          <p>04 coal city university Enugu</p>
-        </ol>
-        <ol>
-          <i class="far fa-envelope"></i>
-          <p>contact@example.com</p>
-        </ol>
-        <ol>
-          <i class="far fa-clock"></i>
-          <p>Monday-Saturday:9:00am to 16:00pm</p>
-        </ol>
-        <ol>
-          <i class="fas fa-phone-alt"></i>
-          <p>contact@example.com</p>
-        </ol>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
       </div>
     </div>
 
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4663153329266!2d7.582401014193243!3d6.462453925664323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a507685183af%3A0xdcb8819840c6eff9!2sCoal%20City%20University%2C%20Enugu!5e0!3m2!1sen!2sng!4v1678796186347!5m2!1sen!2sng"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="sub-total">
+      <h3>Cart Total</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>$235</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>$553</strong></td>
+        </tr>
+      </table>
+      <button class="normall"> Proceed to Checkout</button>
     </div>
-  </section>
-  <section id="form-details">
-    <form action="">
-      <span>LEAVE A MESAGE</span>
-      <h2>We love to hear from you</h2>
-      <input type="text" placeholder="Your Name">
-      <input type="text" placeholder="E-mail">
-      <input type="text" placeholder="Subject">
-      <textarea name="" id="" cols="30" rows="10" placeholder="Yor message"></textarea>
-      <button class="normal">Submit</button>
+    
 
-    </form>
-    <div class="people">
-      <div>
-        <img src="../images/1.png" alt="">
-        <p><span>May Rose</span>Senior Marketing Manager <br>phone: +000235647 <br>E-mail:contact@example.com</p>
-
-      </div> 
-
-      <div>
-        <img src="../images/3.png" alt="">
-        <p><span>John Jane</span>Senior Survay Manager <br>phone: +000235647 <br>E-mail:contact@example.com</p>
-
-      </div> 
-
-      <div>
-        <img src="../images/5.png" alt="">
-        <p><span>Diego Brukley</span>Senior Administrative Manager <br>phone: +000235647 <br>E-mail:contact@example.com</p>
-
-      </div>
-     
-    </div>
-  </section>
-
-  <section id="newsletter" class="section-p1 section-m1">
-    <div class="newstext">
-      <h4>Sign Up For Newsletter</h4>
-      <p>Get E-mail updates about our latest shop and <span>special offer</span> </p>
-    </div>
-    <div class="form">
-      <input type="text" placeholder="Your email address">
-      <button class="normal">Sign Up</button>
-
-    </div>
   </section>
 
 
-
-
-
-
-
+  <!-- ===footer -->
   <div class="contained my-5">
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white" style="background-color: #f3e3e2">
@@ -252,9 +267,7 @@
     </footer>
     <!-- Footer -->
   </div>
-  <!-- End of .container -->
-
-
+  <!-- End of Footer -->
 
   <script src="./script.js"></script>
 
