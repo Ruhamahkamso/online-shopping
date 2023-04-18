@@ -147,7 +147,7 @@ body {
 #hero h1 {
   color: rgb(12, 93, 5) ;
 }
-#hero button {
+#hero button  {
     background-image: url(../images/stroke.jpeg);
     background-color: transparent;
     color:  rgb(181, 13, 13) ;
@@ -157,6 +157,12 @@ body {
     cursor: pointer;
     font-weight: 900;
     font-size: 15px;
+}
+#hero button a {
+    text-decoration: none;
+    list-style: none;
+    color:  rgb(181, 13, 13) ;
+
 }
 #feature {
     display: flex;
